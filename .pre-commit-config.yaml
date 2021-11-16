@@ -10,10 +10,10 @@ repos:
       -   id: check-added-large-files
 
 
-#repos:
-#  - repo: https://github.com/gitguardian/ggshield
-#    rev: v1.10.4
-#    hooks:
-#      - id: ggshield-push
-#        language_version: python3
-#        stages: [push]
+# repos:
+  - repo: https://github.com/gitguardian/ggshield
+    rev: v1.10.4
+    hooks:
+      - id: ggshield-push
+        language_version: python3
+        stages: [push]
