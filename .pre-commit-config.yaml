@@ -10,7 +10,7 @@ repos:
       -   id: check-added-large-files
 
 
-# repos:
+repos:
   - repo: https://github.com/gitguardian/ggshield
     rev: v1.10.4
     hooks:
