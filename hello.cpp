@@ -9,6 +9,7 @@ int main()
 
 
       printf("hello hi every \n");
+	printf("test pre-push \n");
 
       return -1;
 
