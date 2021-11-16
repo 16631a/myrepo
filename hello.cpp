@@ -8,7 +8,7 @@ int main()
       printf("hello hi every one\n");
 
 
-      printf("hello hi every one\n");
+      printf("hello hi every \n");
 
       return -1;
 
