@@ -7,6 +7,9 @@ int main()
 	      return 0;
       printf("hello hi every one\n");
 
+
+      printf("hello hi every one\n");
+
       return -1;
 
 }
