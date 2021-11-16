@@ -14,6 +14,6 @@ repos:
   - repo: https://github.com/gitguardian/ggshield
     rev: v1.10.4
     hooks:
-      - id: ggshield-push
-        language_version: python3
-        stages: [push]
+      -   id: ggshield-push
+          language_version: python3
+          stages: [push]
