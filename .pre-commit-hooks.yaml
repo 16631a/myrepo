@@ -1,10 +1,5 @@
-
-
-- id: "test-hook"
-  name: "Test Hook"
-  entry: run-test-hook.sh
-  types: [text]
-  exclude: ".yaml$|.yml$"
-  language: "script"
-  description: "This is an example hook to demonstrate how to create a pre-commit hook"
-  args: [--example1, --example2]
+repos:
+-   repo: local
+    hooks:
+    -   id: pre-commit
+        name: "Test Hook"
