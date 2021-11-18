@@ -18,7 +18,6 @@ int main()
     {
         cout << "Enter number" << i + 1 << " :  ";
         cin >> temp;
-
         sum += temp;
     }
 
