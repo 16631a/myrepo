@@ -7,7 +7,7 @@ int main()
     double average = 0;
     average = 64;
     cout << "enter number\n";
-    cin >> average >> endl;
+    cin >> average;
 
     cout << "\n\nThe Average of the  is : " << average << endl;
     if (average < 90 && average > 50)
