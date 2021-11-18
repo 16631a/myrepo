@@ -1,5 +1,0 @@
-repos:
--   repo: local
-    hooks:
-    -   id: pre-commit
-        name: "Test Hook"
