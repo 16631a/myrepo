@@ -7,7 +7,6 @@ int main()
     int n, i, temp;
 
     double sum = 0;
-
     double average = 0;
 
     cout << " Enter the number of integers you want to find the average of : ";
