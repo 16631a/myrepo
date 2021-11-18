@@ -5,7 +5,7 @@ int main()
 {
 
     double average = 0;
-    average = 64;
+    average = 67;
     cout << "enter number\n";
     cin >> average;
 
