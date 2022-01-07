@@ -1,7 +1,7 @@
 test1:
-	g++ -o avg avg.cpp
+	g++ -o avg1 avg.cpp
 run:
-	./avg
+	./avg1
 clean:
-	rm avg
+	rm avg1
 	

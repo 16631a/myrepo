@@ -9,6 +9,11 @@ int main()
     cout << "enter number\n";
     cin >> average;
 
+
+
+
+
+
     cout << "\n\nThe Average of the  is : " << average << endl;
     if (average < 90 && average > 50)
      return 0;
