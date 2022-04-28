@@ -1,0 +1,15 @@
+##include barcode/Makefile
+#include dimensions/Makefile
+
+CPP      =${CXX} -std=c++11
+CXXFLAGS = $(CXXINCS) -Wall -O0
+OPENCV=$(shell pkg-config --cflags --libs opencv4)
+ZBAR=$(shell pkg-config --cflags --libs zbar)
+all: main
+
+main: main.o dimensions/*.o barcode/*.o
+	$(CPP) main.o dimensions/*.o barcode/*.o -o main ${OPENCV} ${ZBAR}
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS) ${OPENCV} ${ZBAR}
+
